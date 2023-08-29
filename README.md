@@ -10,4 +10,6 @@ Trabajo Final del curso introductorio FullCoders - Potenciar Argentina
 
 -------------------------------------------------------------
 
-El presente trabajo representa el desarrollo de una aplicación para una institución educativa que ofrece cursos online de idiomas
+El presente trabajo simula el desarrollo de una aplicación para una institución educativa que ofrece cursos online de distintos idiomas
+
+Logo (Trabajo-Final/Logo.png) generado con https://brandmark.io/
