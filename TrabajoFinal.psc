@@ -2,9 +2,9 @@ Funcion disponible <- cupoDisponible (cupo, idioma, turno)
 	Definir disponible Como Logico
 	disponible = Falso
 	
-	Si cupo[idioma, turno] < 20 Entonces
+	Si cupo[idioma, turno] < 10 Entonces
 		disponible = Verdadero
-		cupo[idioma, turno] =+ 1
+		cupo[idioma, turno] = cupo[idioma, turno] + 1
 		Escribir cupo[idioma, turno]
 	FinSi
 Fin Funcion
@@ -64,6 +64,11 @@ Algoritmo TrabajoFinal
 					Escribir "Debe seleccionar un idioma del listado"
 				FinSi
 		Fin Segun
+		
+		Escribir "Desea seleccionar otro curso?"
+		Escribir "0. No"
+		Escribir "1. Si"
+		Leer idioma
 	Hasta Que idioma = 0
 	
 FinAlgoritmo
